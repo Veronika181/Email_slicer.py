@@ -1,14 +1,14 @@
-# získání e-mailové adresy uživatele
-email = input("Jaká je tvoje e-mailová adresa?:").strip()
+#Getting the user's email address
+email = input("What is your email address?:").strip()
 
-# rozdělění uživatelského jména
+#Splitting the user name
 user_name = email[:email.index("@")]
 
-# rozdělění názvu domény
+#Splitting the domain name
 domain_name = email[email.index("@")+1:]
 
-# Formát zprávy
-res = "Tvoje uživatelské jméno je '{}' a tvůj název domény je '{}' ".format(user_name,domain_name)
+#Message format
+res = "Your username is '{}' and your domain name is '{}' ".format(user_name,domain_name)
 
-# Zobrazení výsledku zprávy
+#Displaying the message result
 print(res)
