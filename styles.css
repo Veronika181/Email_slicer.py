@@ -55,3 +55,6 @@ button:hover {
     color: #333;
 }
 
+#userName, #domainName {
+    margin: 5px 0;
+}
